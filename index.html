@@ -145,11 +145,14 @@
 
     <section class="container-fluid">
       <div class="row">
-        <div class="col-6 div-der">
-          <img src="" alt="honolulu" width="75%" />
+        <div class="col-md-6 div-der img-fluid">
+          <img src="img/honolulu.jpg" alt="honolulu" />
         </div>
-        <div class="col-6 div-izq">
-          <h1>texto de prueba</h1>
+        <div
+          class="col-md-6 div-izq text-light"
+          style="background-color: #353a40"
+        >
+          <h1>Bs As - Octubre</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque illo
             deleniti autem similique obcaecati necessitatibus, deserunt
@@ -157,12 +160,91 @@
             voluptatibus alias. Corporis enim nisi iure fugiat praesentium.
           </p>
           <button class="btn btn-outline-secondary" type="submit">
-            Enviar
+            Conoce más
           </button>
         </div>
       </div>
+      <br />
     </section>
 
+    <div style="width: 500px" class="container-fluid text-center">
+      <p style="font-size: small">CONVIERTETE EN UN</p>
+      <p style="font-size: 35px">ORADOR</p>
+      <p style="font-size: x-small">
+        Anotate como orador para dar una charla ignite. Cuentanos de que quieres
+        hablar!
+      </p>
+      <div class="row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Nombre"
+            aria-label="Nombre"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Apellido"
+            aria-label="Apellido"
+          />
+        </div>
+      </div>
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="Leave a comment here"
+          id="floatingTextarea2"
+          style="height: 100px"
+        ></textarea>
+        <label for="floatingTextarea2">Sobre que quieres hablar?</label>
+      </div>
+      <p style="display: flex"><h7>Recuerda un título para tu charla</h7></p>
+      <button
+        style="width: 475px; color: white; background-color: chartreuse"
+        type="button"
+        class="btn btn-success container-fluid justify-content-center"
+      >
+        Enviar
+      </button>
+    </div>
+    <br />
+    <footer>
+      <nav
+        style="background-color: rgb(44, 44, 160)"
+        class="navbar navbar-expand-lg navbar-dark"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ></button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Preguntas frecuentes</a
+              >
+              <a class="nav-link active" href="#">Contáctanos</a>
+              <a class="nav-link active" href="#">Prensa</a>
+              <a class="nav-link active" href="#">Conferencias</a>
+              <a class="nav-link active" href="#">Términos y condiciones</a>
+              <a class="nav-link active" href="#">Privacidad</a>
+              <a class="nav-link active" href="#">Estudiantes</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
